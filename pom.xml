@@ -231,13 +231,13 @@
 					<target>${jdk.version}</target>
 					<!--<compilerArgument>-proc:none</compilerArgument> -->
 					<annotationProcessors>
-						<annotationProcessor>gama.core.annotations.precompiler.GamaProcessor</annotationProcessor>
+						<annotationProcessor>gama.annotations.precompiler.GamaProcessor</annotationProcessor>
 					</annotationProcessors>
 					<executionEnvironment>JavaSE-${jdk.version}</executionEnvironment>
 				</configuration>
 				<dependencies>
 					<!-- dependency containing the annotation processor specified in the 
-						annotationProcessor element <dependency> <groupId>gama.core</groupId> <artifactId>gama.core.processor</artifactId> 
+						annotationProcessor element <dependency> <groupId>gama.processor</groupId> <artifactId>gama.processor</artifactId> 
 						<version>2.0.0</version> </dependency> -->
 					</dependencies>
 				</plugin>
